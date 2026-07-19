@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/workspace.xml
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out

@@ -1,0 +1,3431 @@
+@prefix country: <https://example.org/worldbank-country-kg/country/> .
+@prefix income: <https://example.org/worldbank-country-kg/income/> .
+@prefix region: <https://example.org/worldbank-country-kg/region/> .
+@prefix wbkg: <https://example.org/worldbank-country-kg/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+country:ABW a wbkg:Country ;
+    wbkg:hasCapital "Oranjestad" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "AW" ;
+    wbkg:latitude "12.5167" ;
+    wbkg:lifeExpectancyYears 76.5 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-70.0167" ;
+    wbkg:name "Aruba" ;
+    wbkg:populationTotal 108785 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AFG a wbkg:Country ;
+    wbkg:hasCapital "Kabul" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "AF" ;
+    wbkg:latitude "34.5228" ;
+    wbkg:lifeExpectancyYears 66.289 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "69.1761" ;
+    wbkg:name "Afghanistan" ;
+    wbkg:populationTotal 43844111 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AGO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3129.47662331063 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Luanda" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "AO" ;
+    wbkg:latitude "-8.81155" ;
+    wbkg:lifeExpectancyYears 64.805 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "13.242" ;
+    wbkg:name "Angola" ;
+    wbkg:populationTotal 39040039 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ALB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 12998.147869552 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tirane" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "AL" ;
+    wbkg:latitude "41.3317" ;
+    wbkg:lifeExpectancyYears 79.776 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "19.8172" ;
+    wbkg:name "Albania" ;
+    wbkg:populationTotal 2349580 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AND a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 54291.5026031052 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Andorra la Vella" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "AD" ;
+    wbkg:latitude "42.5075" ;
+    wbkg:lifeExpectancyYears 84.188 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "1.5218" ;
+    wbkg:name "Andorra" ;
+    wbkg:populationTotal 82904 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ARE a wbkg:Country ;
+    wbkg:hasCapital "Abu Dhabi" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "AE" ;
+    wbkg:latitude "24.4764" ;
+    wbkg:lifeExpectancyYears 83.069 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "54.3705" ;
+    wbkg:name "United Arab Emirates" ;
+    wbkg:populationTotal 11513149 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ARG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14898.0885943842 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Buenos Aires" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "AR" ;
+    wbkg:latitude "-34.6118" ;
+    wbkg:lifeExpectancyYears 77.543 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-58.4173" ;
+    wbkg:name "Argentina" ;
+    wbkg:populationTotal 45851378 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ARM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 9474.01849300368 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Yerevan" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "AM" ;
+    wbkg:latitude "40.1596" ;
+    wbkg:lifeExpectancyYears 78.319512195122 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "44.509" ;
+    wbkg:name "Armenia" ;
+    wbkg:populationTotal 3086700 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ASM a wbkg:Country ;
+    wbkg:hasCapital "Pago Pago" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "AS" ;
+    wbkg:latitude "-14.2846" ;
+    wbkg:lifeExpectancyYears 72.992 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-170.691" ;
+    wbkg:name "American Samoa" ;
+    wbkg:populationTotal 46029 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ATG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 24819.2454680158 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Saint John's" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "AG" ;
+    wbkg:latitude "17.1175" ;
+    wbkg:lifeExpectancyYears 77.766 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-61.8456" ;
+    wbkg:name "Antigua and Barbuda" ;
+    wbkg:populationTotal 94209 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AUS a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 65129.7227990563 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Canberra" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "AU" ;
+    wbkg:latitude "-35.282" ;
+    wbkg:lifeExpectancyYears 83.0512195121951 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "149.129" ;
+    wbkg:name "Australia" ;
+    wbkg:populationTotal 27614411 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AUT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 62930.0351324599 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Vienna" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "AT" ;
+    wbkg:latitude "48.2201" ;
+    wbkg:lifeExpectancyYears 81.9951219512195 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "16.3798" ;
+    wbkg:name "Austria" ;
+    wbkg:populationTotal 9208163 ;
+    wbkg:populationTotalYear 2025 .
+
+country:AZE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7410.72281660142 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Baku" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "AZ" ;
+    wbkg:latitude "40.3834" ;
+    wbkg:lifeExpectancyYears 74.576 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "49.8932" ;
+    wbkg:name "Azerbaijan" ;
+    wbkg:populationTotal 10246996 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BDI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 233.823013385395 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bujumbura" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "BI" ;
+    wbkg:latitude "-3.3784" ;
+    wbkg:lifeExpectancyYears 63.818 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "29.3639" ;
+    wbkg:name "Burundi" ;
+    wbkg:populationTotal 14390003 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BEL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 60750.2735864647 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Brussels" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "BE" ;
+    wbkg:latitude "50.8371" ;
+    wbkg:lifeExpectancyYears 82.3 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "4.36761" ;
+    wbkg:name "Belgium" ;
+    wbkg:populationTotal 11941781 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BEN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1658.27312662991 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Porto-Novo" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "BJ" ;
+    wbkg:latitude "6.4779" ;
+    wbkg:lifeExpectancyYears 60.961 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "2.6323" ;
+    wbkg:name "Benin" ;
+    wbkg:populationTotal 14814460 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BFA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1147.57131635601 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ouagadougou" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "BF" ;
+    wbkg:latitude "12.3605" ;
+    wbkg:lifeExpectancyYears 61.292 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-1.53395" ;
+    wbkg:name "Burkina Faso" ;
+    wbkg:populationTotal 24074580 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BGD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2597.34352335275 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dhaka" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "BD" ;
+    wbkg:latitude "23.7055" ;
+    wbkg:lifeExpectancyYears 74.93 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "90.4113" ;
+    wbkg:name "Bangladesh" ;
+    wbkg:populationTotal 175686899 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BGR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 20328.1667065538 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Sofia" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "BG" ;
+    wbkg:latitude "42.7105" ;
+    wbkg:lifeExpectancyYears 75.7609756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "23.3238" ;
+    wbkg:name "Bulgaria" ;
+    wbkg:populationTotal 6433302 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BHR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 30596.5794898885 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Manama" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "BH" ;
+    wbkg:latitude "26.1921" ;
+    wbkg:lifeExpectancyYears 81.423 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "50.5354" ;
+    wbkg:name "Bahrain" ;
+    wbkg:populationTotal 1600366 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BHS a wbkg:Country ;
+    wbkg:hasCapital "Nassau" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "BS" ;
+    wbkg:latitude "25.0661" ;
+    wbkg:lifeExpectancyYears 74.71 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-77.339" ;
+    wbkg:name "Bahamas, The" ;
+    wbkg:populationTotal 403033 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BIH a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 10381.8460703874 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Sarajevo" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "BA" ;
+    wbkg:latitude "43.8607" ;
+    wbkg:lifeExpectancyYears 78.044 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "18.4214" ;
+    wbkg:name "Bosnia and Herzegovina" ;
+    wbkg:populationTotal 3140095 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BLR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 10279.2547190723 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Minsk" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "BY" ;
+    wbkg:latitude "53.9678" ;
+    wbkg:lifeExpectancyYears 74.3653414634147 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "27.5766" ;
+    wbkg:name "Belarus" ;
+    wbkg:populationTotal 9085991 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BLZ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7865.47937690933 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Belmopan" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "BZ" ;
+    wbkg:latitude "17.2534" ;
+    wbkg:lifeExpectancyYears 73.739 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-88.7713" ;
+    wbkg:name "Belize" ;
+    wbkg:populationTotal 422924 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BMU a wbkg:Country ;
+    wbkg:hasCapital "Hamilton" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:NAC ;
+    wbkg:iso2Code "BM" ;
+    wbkg:latitude "32.3293" ;
+    wbkg:lifeExpectancyYears 82.49 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-64.706" ;
+    wbkg:name "Bermuda" ;
+    wbkg:populationTotal 64555 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BOL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5147.81081955367 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "La Paz" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "BO" ;
+    wbkg:latitude "-13.9908" ;
+    wbkg:lifeExpectancyYears 68.739 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-66.1936" ;
+    wbkg:name "Bolivia" ;
+    wbkg:populationTotal 12581843 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BRA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 10713.2856869511 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Brasilia" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "BR" ;
+    wbkg:latitude "-15.7801" ;
+    wbkg:lifeExpectancyYears 76.023 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-47.9292" ;
+    wbkg:name "Brazil" ;
+    wbkg:populationTotal 212812405 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BRB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 28364.8181499736 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bridgetown" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "BB" ;
+    wbkg:latitude "13.0935" ;
+    wbkg:lifeExpectancyYears 76.332 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-59.6105" ;
+    wbkg:name "Barbados" ;
+    wbkg:populationTotal 282623 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BRN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 32234.6428368582 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bandar Seri Begawan" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "BN" ;
+    wbkg:latitude "4.94199" ;
+    wbkg:lifeExpectancyYears 75.501 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "114.946" ;
+    wbkg:name "Brunei Darussalam" ;
+    wbkg:populationTotal 466330 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BTN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4492.78400306618 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Thimphu" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "BT" ;
+    wbkg:latitude "27.5768" ;
+    wbkg:lifeExpectancyYears 73.262 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "89.6177" ;
+    wbkg:name "Bhutan" ;
+    wbkg:populationTotal 796682 ;
+    wbkg:populationTotalYear 2025 .
+
+country:BWA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7778.1151090571 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Gaborone" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "BW" ;
+    wbkg:latitude "-24.6544" ;
+    wbkg:lifeExpectancyYears 69.293 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "25.9201" ;
+    wbkg:name "Botswana" ;
+    wbkg:populationTotal 2562122 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CAF a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 556.131398031455 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bangui" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CF" ;
+    wbkg:latitude "5.63056" ;
+    wbkg:lifeExpectancyYears 57.671 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "21.6407" ;
+    wbkg:name "Central African Republic" ;
+    wbkg:populationTotal 5513282 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CAN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 55697.6639660837 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ottawa" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:NAC ;
+    wbkg:iso2Code "CA" ;
+    wbkg:latitude "45.4215" ;
+    wbkg:lifeExpectancyYears 82.1080487804878 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-75.6919" ;
+    wbkg:name "Canada" ;
+    wbkg:populationTotal 41651653 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CHE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 114769.012314293 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bern" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "CH" ;
+    wbkg:latitude "46.948" ;
+    wbkg:lifeExpectancyYears 84.4073170731707 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "7.44821" ;
+    wbkg:name "Switzerland" ;
+    wbkg:populationTotal 9092436 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CHI a wbkg:Country ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "JG" ;
+    wbkg:lifeExpectancyYears 81.2 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "Channel Islands" ;
+    wbkg:populationTotal 168466 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CHL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 17994.5911957485 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Santiago" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "CL" ;
+    wbkg:latitude "-33.475" ;
+    wbkg:lifeExpectancyYears 81.359 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-70.6475" ;
+    wbkg:name "Chile" ;
+    wbkg:populationTotal 19859921 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CHN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 13861.970224368 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Beijing" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "CN" ;
+    wbkg:latitude "40.0495" ;
+    wbkg:lifeExpectancyYears 78.017 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "116.286" ;
+    wbkg:name "China" ;
+    wbkg:populationTotal 1406585000 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CIV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3050.10202257321 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Yamoussoukro" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CI" ;
+    wbkg:latitude "5.332" ;
+    wbkg:lifeExpectancyYears 62.11 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-4.0305" ;
+    wbkg:name "Cote d'Ivoire" ;
+    wbkg:populationTotal 32711547 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CMR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1972.3815800786 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Yaounde" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CM" ;
+    wbkg:latitude "3.8721" ;
+    wbkg:lifeExpectancyYears 63.968 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "11.5174" ;
+    wbkg:name "Cameroon" ;
+    wbkg:populationTotal 29879337 ;
+    wbkg:populationTotalYear 2025 .
+
+country:COD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 806.776000708534 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kinshasa" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CD" ;
+    wbkg:latitude "-4.325" ;
+    wbkg:lifeExpectancyYears 62.074 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "15.3222" ;
+    wbkg:name "Congo, Dem. Rep." ;
+    wbkg:populationTotal 112832473 ;
+    wbkg:populationTotalYear 2025 .
+
+country:COG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2514.73393584747 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Brazzaville" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CG" ;
+    wbkg:latitude "-4.2767" ;
+    wbkg:lifeExpectancyYears 66.001 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "15.2662" ;
+    wbkg:name "Congo, Rep." ;
+    wbkg:populationTotal 6484437 ;
+    wbkg:populationTotalYear 2025 .
+
+country:COL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8561.62091854449 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bogota" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "CO" ;
+    wbkg:latitude "4.60987" ;
+    wbkg:lifeExpectancyYears 77.913 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-74.082" ;
+    wbkg:name "Colombia" ;
+    wbkg:populationTotal 53425635 ;
+    wbkg:populationTotalYear 2025 .
+
+country:COM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2055.75921566281 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Moroni" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "KM" ;
+    wbkg:latitude "-11.6986" ;
+    wbkg:lifeExpectancyYears 67.023 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "43.2418" ;
+    wbkg:name "Comoros" ;
+    wbkg:populationTotal 882847 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CPV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5796.47207860911 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Praia" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "CV" ;
+    wbkg:latitude "14.9218" ;
+    wbkg:lifeExpectancyYears 76.224 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-23.5087" ;
+    wbkg:name "Cabo Verde" ;
+    wbkg:populationTotal 527326 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CRI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 19970.0989059622 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "San Jose" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "CR" ;
+    wbkg:latitude "9.63701" ;
+    wbkg:lifeExpectancyYears 80.996 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-84.0089" ;
+    wbkg:name "Costa Rica" ;
+    wbkg:populationTotal 5152950 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CUB a wbkg:Country ;
+    wbkg:hasCapital "Havana" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "CU" ;
+    wbkg:latitude "23.1333" ;
+    wbkg:lifeExpectancyYears 78.264 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-82.3667" ;
+    wbkg:name "Cuba" ;
+    wbkg:populationTotal 10937203 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CUW a wbkg:Country ;
+    wbkg:hasCapital "Willemstad" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "CW" ;
+    wbkg:lifeExpectancyYears 76.989 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "Curacao" ;
+    wbkg:populationTotal 156263 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CYM a wbkg:Country ;
+    wbkg:hasCapital "George Town" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "KY" ;
+    wbkg:latitude "19.3022" ;
+    wbkg:lifeExpectancyYears 80.54 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-81.3857" ;
+    wbkg:name "Cayman Islands" ;
+    wbkg:populationTotal 75844 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CYP a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 41783.08984375 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Nicosia" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "CY" ;
+    wbkg:latitude "35.1676" ;
+    wbkg:lifeExpectancyYears 81.821 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "33.3736" ;
+    wbkg:name "Cyprus" ;
+    wbkg:populationTotal 1370754 ;
+    wbkg:populationTotalYear 2025 .
+
+country:CZE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 35917.2724081665 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Prague" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "CZ" ;
+    wbkg:latitude "50.0878" ;
+    wbkg:lifeExpectancyYears 79.9780487804878 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "14.4205" ;
+    wbkg:name "Czechia" ;
+    wbkg:populationTotal 10886878 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DEU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 60496.4350820414 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Berlin" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "DE" ;
+    wbkg:latitude "52.5235" ;
+    wbkg:lifeExpectancyYears 80.7926829268293 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "13.4115" ;
+    wbkg:name "Germany" ;
+    wbkg:populationTotal 83491249 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DJI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3905.604954681 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Djibouti" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "DJ" ;
+    wbkg:latitude "11.5806" ;
+    wbkg:lifeExpectancyYears 66.202 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "43.1425" ;
+    wbkg:name "Djibouti" ;
+    wbkg:populationTotal 1184076 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DMA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 10989.0431185083 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Roseau" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "DM" ;
+    wbkg:latitude "15.2976" ;
+    wbkg:lifeExpectancyYears 71.294 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-61.39" ;
+    wbkg:name "Dominica" ;
+    wbkg:populationTotal 65871 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DNK a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 76970.1535217919 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Copenhagen" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "DK" ;
+    wbkg:latitude "55.6763" ;
+    wbkg:lifeExpectancyYears 82.2536585365854 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "12.5681" ;
+    wbkg:name "Denmark" ;
+    wbkg:populationTotal 6009169 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DOM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 11059.2081531834 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Santo Domingo" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "DO" ;
+    wbkg:latitude "18.479" ;
+    wbkg:lifeExpectancyYears 73.868 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-69.8908" ;
+    wbkg:name "Dominican Republic" ;
+    wbkg:populationTotal 11520487 ;
+    wbkg:populationTotalYear 2025 .
+
+country:DZA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6051.00322704182 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Algiers" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "DZ" ;
+    wbkg:latitude "36.7397" ;
+    wbkg:lifeExpectancyYears 76.475 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "3.05097" ;
+    wbkg:name "Algeria" ;
+    wbkg:populationTotal 47435312 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ECU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7125.27618527738 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Quito" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "EC" ;
+    wbkg:latitude "-0.229498" ;
+    wbkg:lifeExpectancyYears 77.579 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-78.5243" ;
+    wbkg:name "Ecuador" ;
+    wbkg:populationTotal 18289896 ;
+    wbkg:populationTotalYear 2025 .
+
+country:EGY a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3085.80712036204 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Cairo" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "EG" ;
+    wbkg:latitude "30.0982" ;
+    wbkg:lifeExpectancyYears 71.806 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "31.2461" ;
+    wbkg:name "Egypt, Arab Rep." ;
+    wbkg:populationTotal 118365995 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ERI a wbkg:Country ;
+    wbkg:hasCapital "Asmara" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ER" ;
+    wbkg:latitude "15.3315" ;
+    wbkg:lifeExpectancyYears 68.893 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "38.9183" ;
+    wbkg:name "Eritrea" ;
+    wbkg:populationTotal 3607003 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ESP a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 38627.2472148623 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Madrid" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "ES" ;
+    wbkg:latitude "40.4167" ;
+    wbkg:lifeExpectancyYears 83.8878048780488 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-3.70327" ;
+    wbkg:name "Spain" ;
+    wbkg:populationTotal 49355143 ;
+    wbkg:populationTotalYear 2025 .
+
+country:EST a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 34417.6320815138 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tallinn" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "EE" ;
+    wbkg:latitude "59.4392" ;
+    wbkg:lifeExpectancyYears 79.2951219512195 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "24.7586" ;
+    wbkg:name "Estonia" ;
+    wbkg:populationTotal 1366475 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ETH a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 932.729352775179 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Addis Ababa" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ET" ;
+    wbkg:latitude "9.02274" ;
+    wbkg:lifeExpectancyYears 67.603 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "38.7468" ;
+    wbkg:name "Ethiopia" ;
+    wbkg:populationTotal 135472051 ;
+    wbkg:populationTotalYear 2025 .
+
+country:FIN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 56148.580949046 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Helsinki" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "FI" ;
+    wbkg:latitude "60.1608" ;
+    wbkg:lifeExpectancyYears 82.3365853658537 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "24.9525" ;
+    wbkg:name "Finland" ;
+    wbkg:populationTotal 5646436 ;
+    wbkg:populationTotalYear 2025 .
+
+country:FJI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6642.00449450523 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Suva" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "FJ" ;
+    wbkg:latitude "-18.1149" ;
+    wbkg:lifeExpectancyYears 67.463 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "178.399" ;
+    wbkg:name "Fiji" ;
+    wbkg:populationTotal 933154 ;
+    wbkg:populationTotalYear 2025 .
+
+country:FRA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 48985.7307807924 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Paris" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "FR" ;
+    wbkg:latitude "48.8566" ;
+    wbkg:lifeExpectancyYears 82.9804878048781 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "2.35097" ;
+    wbkg:name "France" ;
+    wbkg:populationTotal 68720337 ;
+    wbkg:populationTotalYear 2025 .
+
+country:FRO a wbkg:Country ;
+    wbkg:hasCapital "Torshavn" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "FO" ;
+    wbkg:latitude "61.8926" ;
+    wbkg:lifeExpectancyYears 83.0832463414634 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-6.91181" ;
+    wbkg:name "Faroe Islands" ;
+    wbkg:populationTotal 54900 ;
+    wbkg:populationTotalYear 2025 .
+
+country:FSM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4414.00737137479 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Palikir" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "FM" ;
+    wbkg:latitude "6.91771" ;
+    wbkg:lifeExpectancyYears 67.357 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "158.185" ;
+    wbkg:name "Micronesia, Fed. Sts." ;
+    wbkg:populationTotal 113683 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GAB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8263.03321595 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Libreville" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GA" ;
+    wbkg:latitude "0.38832" ;
+    wbkg:lifeExpectancyYears 68.511 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "9.45162" ;
+    wbkg:name "Gabon" ;
+    wbkg:populationTotal 2593130 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GBR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 57601.9621201954 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "London" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "GB" ;
+    wbkg:latitude "51.5002" ;
+    wbkg:lifeExpectancyYears 81.3868536585366 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-0.126236" ;
+    wbkg:name "United Kingdom" ;
+    wbkg:populationTotal 69487000 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GEO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 9691.53472415196 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tbilisi" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "GE" ;
+    wbkg:latitude "41.71" ;
+    wbkg:lifeExpectancyYears 74.657 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "44.793" ;
+    wbkg:name "Georgia" ;
+    wbkg:populationTotal 3935766 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GHA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3257.1588903576 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Accra" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GH" ;
+    wbkg:latitude "5.57045" ;
+    wbkg:lifeExpectancyYears 65.695 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-0.20795" ;
+    wbkg:name "Ghana" ;
+    wbkg:populationTotal 35064272 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GIB a wbkg:Country ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "GI" ;
+    wbkg:lifeExpectancyYears 83.63 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "Gibraltar" ;
+    wbkg:populationTotal 40126 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GIN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1877.2541220972 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Conakry" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GN" ;
+    wbkg:latitude "9.51667" ;
+    wbkg:lifeExpectancyYears 60.904 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-13.7" ;
+    wbkg:name "Guinea" ;
+    wbkg:populationTotal 15099727 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GMB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 919.060423427951 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Banjul" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GM" ;
+    wbkg:latitude "13.4495" ;
+    wbkg:lifeExpectancyYears 66.057 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-16.5885" ;
+    wbkg:name "Gambia, The" ;
+    wbkg:populationTotal 2822093 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GNB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1123.76679992349 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bissau" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GW" ;
+    wbkg:latitude "11.8037" ;
+    wbkg:lifeExpectancyYears 64.254 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-15.1804" ;
+    wbkg:name "Guinea-Bissau" ;
+    wbkg:populationTotal 2249515 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GNQ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6615.25245207167 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Malabo" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "GQ" ;
+    wbkg:latitude "3.7523" ;
+    wbkg:lifeExpectancyYears 63.906 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "8.7741" ;
+    wbkg:name "Equatorial Guinea" ;
+    wbkg:populationTotal 1938431 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GRC a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 26948.0070432791 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Athens" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "GR" ;
+    wbkg:latitude "37.9792" ;
+    wbkg:lifeExpectancyYears 81.8390243902439 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "23.7166" ;
+    wbkg:name "Greece" ;
+    wbkg:populationTotal 10413962 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GRD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 12106.8790105068 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Saint George's" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "GD" ;
+    wbkg:latitude "12.0653" ;
+    wbkg:lifeExpectancyYears 75.367 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-61.7449" ;
+    wbkg:name "Grenada" ;
+    wbkg:populationTotal 117303 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GRL a wbkg:Country ;
+    wbkg:hasCapital "Nuuk" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "GL" ;
+    wbkg:latitude "64.1836" ;
+    wbkg:lifeExpectancyYears 70.2734146341463 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-51.7214" ;
+    wbkg:name "Greenland" ;
+    wbkg:populationTotal 56831 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GTM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6598.18032988711 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Guatemala City" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "GT" ;
+    wbkg:latitude "14.6248" ;
+    wbkg:lifeExpectancyYears 72.746 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-90.5328" ;
+    wbkg:name "Guatemala" ;
+    wbkg:populationTotal 18687881 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GUM a wbkg:Country ;
+    wbkg:hasCapital "Agana" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "GU" ;
+    wbkg:latitude "13.4443" ;
+    wbkg:lifeExpectancyYears 77.422 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "144.794" ;
+    wbkg:name "Guam" ;
+    wbkg:populationTotal 168999 ;
+    wbkg:populationTotalYear 2025 .
+
+country:GUY a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 32413.7930757518 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Georgetown" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "GY" ;
+    wbkg:latitude "6.80461" ;
+    wbkg:lifeExpectancyYears 70.319 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-58.1548" ;
+    wbkg:name "Guyana" ;
+    wbkg:populationTotal 835986 ;
+    wbkg:populationTotalYear 2025 .
+
+country:HKG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 56983.0663059906 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "HK" ;
+    wbkg:latitude "22.3964" ;
+    wbkg:lifeExpectancyYears 85.3926829268293 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "114.109" ;
+    wbkg:name "Hong Kong SAR, China" ;
+    wbkg:populationTotal 7498900 ;
+    wbkg:populationTotalYear 2025 .
+
+country:HND a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3598.21450440452 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tegucigalpa" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "HN" ;
+    wbkg:latitude "15.1333" ;
+    wbkg:lifeExpectancyYears 73.044 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-87.4667" ;
+    wbkg:name "Honduras" ;
+    wbkg:populationTotal 11005850 ;
+    wbkg:populationTotalYear 2025 .
+
+country:HRV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 27103.9116109268 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Zagreb" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "HR" ;
+    wbkg:latitude "45.8069" ;
+    wbkg:lifeExpectancyYears 78.9292682926829 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "15.9614" ;
+    wbkg:name "Croatia" ;
+    wbkg:populationTotal 3876200 ;
+    wbkg:populationTotalYear 2025 .
+
+country:HTI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2694.18969101404 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Port-au-Prince" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "HT" ;
+    wbkg:latitude "18.5392" ;
+    wbkg:lifeExpectancyYears 65.119 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-72.3288" ;
+    wbkg:name "Haiti" ;
+    wbkg:populationTotal 11906095 ;
+    wbkg:populationTotalYear 2025 .
+
+country:HUN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 25907.4743259406 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Budapest" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "HU" ;
+    wbkg:latitude "47.4984" ;
+    wbkg:lifeExpectancyYears 76.7243902439025 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "19.0408" ;
+    wbkg:name "Hungary" ;
+    wbkg:populationTotal 9514251 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IDN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5059.62596411213 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Jakarta" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "ID" ;
+    wbkg:latitude "-6.19752" ;
+    wbkg:lifeExpectancyYears 71.288 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "106.83" ;
+    wbkg:name "Indonesia" ;
+    wbkg:populationTotal 285721236 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IMN a wbkg:Country ;
+    wbkg:hasCapital "Douglas" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "IM" ;
+    wbkg:latitude "54.1509" ;
+    wbkg:lifeExpectancyYears 81.091 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-4.47928" ;
+    wbkg:name "Isle of Man" ;
+    wbkg:populationTotal 84118 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IND a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2702.47987141553 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "New Delhi" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "IN" ;
+    wbkg:latitude "28.6353" ;
+    wbkg:lifeExpectancyYears 72.235 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "77.225" ;
+    wbkg:name "India" ;
+    wbkg:populationTotal 1463865525 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IRL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 131592.462547877 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dublin" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "IE" ;
+    wbkg:latitude "53.3441" ;
+    wbkg:lifeExpectancyYears 83.009756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-6.26749" ;
+    wbkg:name "Ireland" ;
+    wbkg:populationTotal 5484367 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IRN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3924.38017821898 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tehran" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "IR" ;
+    wbkg:latitude "35.6878" ;
+    wbkg:lifeExpectancyYears 77.854 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "51.4447" ;
+    wbkg:name "Iran, Islamic Rep." ;
+    wbkg:populationTotal 92417681 ;
+    wbkg:populationTotalYear 2025 .
+
+country:IRQ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5409.67899716967 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Baghdad" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "IQ" ;
+    wbkg:latitude "33.3302" ;
+    wbkg:lifeExpectancyYears 72.424 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "44.394" ;
+    wbkg:name "Iraq" ;
+    wbkg:populationTotal 47020774 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ISL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 98323.4849517418 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Reykjavik" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "IS" ;
+    wbkg:latitude "64.1353" ;
+    wbkg:lifeExpectancyYears 82.809756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-21.8952" ;
+    wbkg:name "Iceland" ;
+    wbkg:populationTotal 392404 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ISR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 60336.8477964194 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "IL" ;
+    wbkg:latitude "31.7717" ;
+    wbkg:lifeExpectancyYears 83.1975609756098 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "35.2035" ;
+    wbkg:name "Israel" ;
+    wbkg:populationTotal 10122800 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ITA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 43308.6403060733 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Rome" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "IT" ;
+    wbkg:latitude "41.8955" ;
+    wbkg:lifeExpectancyYears 83.9512195121951 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "12.4823" ;
+    wbkg:name "Italy" ;
+    wbkg:populationTotal 58915656 ;
+    wbkg:populationTotalYear 2025 .
+
+country:JAM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8002.92104076242 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kingston" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "JM" ;
+    wbkg:latitude "17.9927" ;
+    wbkg:lifeExpectancyYears 71.606 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-76.792" ;
+    wbkg:name "Jamaica" ;
+    wbkg:populationTotal 2837077 ;
+    wbkg:populationTotalYear 2025 .
+
+country:JOR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5347.77731384797 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Amman" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "JO" ;
+    wbkg:latitude "31.9497" ;
+    wbkg:lifeExpectancyYears 77.981 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "35.9263" ;
+    wbkg:name "Jordan" ;
+    wbkg:populationTotal 11520684 ;
+    wbkg:populationTotalYear 2025 .
+
+country:JPN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 35951.0449549304 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tokyo" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "JP" ;
+    wbkg:latitude "35.67" ;
+    wbkg:lifeExpectancyYears 84.0363414634146 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "139.77" ;
+    wbkg:name "Japan" ;
+    wbkg:populationTotal 123366734 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KAZ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14692.1331757237 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Astana" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "KZ" ;
+    wbkg:latitude "51.1879" ;
+    wbkg:lifeExpectancyYears 74.531 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "71.4382" ;
+    wbkg:name "Kazakhstan" ;
+    wbkg:populationTotal 20843754 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KEN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2362.86091198611 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Nairobi" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "KE" ;
+    wbkg:latitude "-1.27975" ;
+    wbkg:lifeExpectancyYears 63.834 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "36.8126" ;
+    wbkg:name "Kenya" ;
+    wbkg:populationTotal 57532493 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KGZ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3080.96893823359 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bishkek" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "KG" ;
+    wbkg:latitude "42.8851" ;
+    wbkg:lifeExpectancyYears 72.4 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "74.6057" ;
+    wbkg:name "Kyrgyz Republic" ;
+    wbkg:populationTotal 7343064 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KHM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2872.42926639909 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Phnom Penh" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "KH" ;
+    wbkg:latitude "11.5556" ;
+    wbkg:lifeExpectancyYears 70.817 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "104.874" ;
+    wbkg:name "Cambodia" ;
+    wbkg:populationTotal 17847982 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KIR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2558.66636011102 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tarawa" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "KI" ;
+    wbkg:latitude "1.32905" ;
+    wbkg:lifeExpectancyYears 66.6 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "172.979" ;
+    wbkg:name "Kiribati" ;
+    wbkg:populationTotal 136488 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KNA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 25223.0257622185 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Basseterre" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "KN" ;
+    wbkg:latitude "17.3" ;
+    wbkg:lifeExpectancyYears 72.281 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-62.7309" ;
+    wbkg:name "St. Kitts and Nevis" ;
+    wbkg:populationTotal 46922 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KOR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 36226.9663637512 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Seoul" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "KR" ;
+    wbkg:latitude "37.5323" ;
+    wbkg:lifeExpectancyYears 83.6292682926829 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "126.957" ;
+    wbkg:name "Korea, Rep." ;
+    wbkg:populationTotal 51684564 ;
+    wbkg:populationTotalYear 2025 .
+
+country:KWT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 32312.3119953634 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kuwait City" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "KW" ;
+    wbkg:latitude "29.3721" ;
+    wbkg:lifeExpectancyYears 84.580487804878 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "47.9824" ;
+    wbkg:name "Kuwait" ;
+    wbkg:populationTotal 4865298 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LAO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2324.76353098791 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Vientiane" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "LA" ;
+    wbkg:latitude "18.5826" ;
+    wbkg:lifeExpectancyYears 69.225 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "102.177" ;
+    wbkg:name "Lao PDR" ;
+    wbkg:populationTotal 7873046 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LBN a wbkg:Country ;
+    wbkg:hasCapital "Beirut" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "LB" ;
+    wbkg:latitude "33.8872" ;
+    wbkg:lifeExpectancyYears 77.945 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "35.5134" ;
+    wbkg:name "Lebanon" ;
+    wbkg:populationTotal 5849421 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LBR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 915.328972645548 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Monrovia" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "LR" ;
+    wbkg:latitude "6.30039" ;
+    wbkg:lifeExpectancyYears 62.324 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-10.7957" ;
+    wbkg:name "Liberia" ;
+    wbkg:populationTotal 5731206 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LBY a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6448.82415074121 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tripoli" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "LY" ;
+    wbkg:latitude "32.8578" ;
+    wbkg:lifeExpectancyYears 71.121 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "13.1072" ;
+    wbkg:name "Libya" ;
+    wbkg:populationTotal 7458555 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LCA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14745.8184305461 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Castries" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "LC" ;
+    wbkg:latitude "14" ;
+    wbkg:lifeExpectancyYears 72.846 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-60.9832" ;
+    wbkg:name "St. Lucia" ;
+    wbkg:populationTotal 180149 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LIE a wbkg:Country ;
+    wbkg:hasCapital "Vaduz" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "LI" ;
+    wbkg:latitude "47.1411" ;
+    wbkg:lifeExpectancyYears 84.2 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "9.52148" ;
+    wbkg:name "Liechtenstein" ;
+    wbkg:populationTotal 41024 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LKA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5002.07904353724 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Colombo" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "LK" ;
+    wbkg:latitude "6.92148" ;
+    wbkg:lifeExpectancyYears 77.672 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "79.8528" ;
+    wbkg:name "Sri Lanka" ;
+    wbkg:populationTotal 21756000 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LSO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1088.96276223185 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Maseru" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "LS" ;
+    wbkg:latitude "-29.5208" ;
+    wbkg:lifeExpectancyYears 57.798 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "27.7167" ;
+    wbkg:name "Lesotho" ;
+    wbkg:populationTotal 2363325 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LTU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 32958.6706396386 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Vilnius" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "LT" ;
+    wbkg:latitude "54.6896" ;
+    wbkg:lifeExpectancyYears 77.1951219512195 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "25.2799" ;
+    wbkg:name "Lithuania" ;
+    wbkg:populationTotal 2888774 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LUX a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 147252.179121515 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Luxembourg" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "LU" ;
+    wbkg:latitude "49.61" ;
+    wbkg:lifeExpectancyYears 83.1951219512195 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "6.1296" ;
+    wbkg:name "Luxembourg" ;
+    wbkg:populationTotal 686970 ;
+    wbkg:populationTotalYear 2025 .
+
+country:LVA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 26311.9730706362 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Riga" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "LV" ;
+    wbkg:latitude "56.9465" ;
+    wbkg:lifeExpectancyYears 76.4292682926829 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "24.1048" ;
+    wbkg:name "Latvia" ;
+    wbkg:populationTotal 1847785 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MAC a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 75901.7461294198 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MO" ;
+    wbkg:latitude "22.1667" ;
+    wbkg:lifeExpectancyYears 83.3317073170732 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "113.55" ;
+    wbkg:name "Macao SAR, China" ;
+    wbkg:populationTotal 685900 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MAF a wbkg:Country ;
+    wbkg:hasCapital "Marigot" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "MF" ;
+    wbkg:lifeExpectancyYears 80.438 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "St. Martin (French part)" ;
+    wbkg:populationTotal 24941 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MAR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4672.46826171875 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Rabat" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "MA" ;
+    wbkg:latitude "33.9905" ;
+    wbkg:lifeExpectancyYears 75.493 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-6.8704" ;
+    wbkg:name "Morocco" ;
+    wbkg:populationTotal 38430770 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MCO a wbkg:Country ;
+    wbkg:hasCapital "Monaco" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "MC" ;
+    wbkg:latitude "43.7325" ;
+    wbkg:lifeExpectancyYears 86.497 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "7.41891" ;
+    wbkg:name "Monaco" ;
+    wbkg:populationTotal 38341 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MDA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8621.71721623786 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Chisinau" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "MD" ;
+    wbkg:latitude "47.0167" ;
+    wbkg:lifeExpectancyYears 71.332 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "28.8497" ;
+    wbkg:name "Moldova" ;
+    wbkg:populationTotal 2360527 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MDG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 599.265294255357 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Antananarivo" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "MG" ;
+    wbkg:latitude "-20.4667" ;
+    wbkg:lifeExpectancyYears 63.835 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "45.7167" ;
+    wbkg:name "Madagascar" ;
+    wbkg:populationTotal 32740678 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MDV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14614.7208116541 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Male" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "MV" ;
+    wbkg:latitude "4.1742" ;
+    wbkg:lifeExpectancyYears 81.285 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "73.5109" ;
+    wbkg:name "Maldives" ;
+    wbkg:populationTotal 529676 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MEX a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 13889.2339628708 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Mexico City" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "MX" ;
+    wbkg:latitude "19.427" ;
+    wbkg:lifeExpectancyYears 75.264 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-99.1276" ;
+    wbkg:name "Mexico" ;
+    wbkg:populationTotal 131946900 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MHL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8489.05793506422 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Majuro" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MH" ;
+    wbkg:latitude "7.11046" ;
+    wbkg:lifeExpectancyYears 67.075 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "171.135" ;
+    wbkg:name "Marshall Islands" ;
+    wbkg:populationTotal 36282 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MKD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 10489.9255355525 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Skopje" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "MK" ;
+    wbkg:latitude "42.0024" ;
+    wbkg:lifeExpectancyYears 76.6165853658537 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "21.4361" ;
+    wbkg:name "North Macedonia" ;
+    wbkg:populationTotal 1820909 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MLI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1193.27601004701 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bamako" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ML" ;
+    wbkg:latitude "13.5667" ;
+    wbkg:lifeExpectancyYears 60.675 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-7.50034" ;
+    wbkg:name "Mali" ;
+    wbkg:populationTotal 25198821 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MLT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 47906.9000057635 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Valletta" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "MT" ;
+    wbkg:latitude "35.9042" ;
+    wbkg:lifeExpectancyYears 82.9560975609756 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "14.5189" ;
+    wbkg:name "Malta" ;
+    wbkg:populationTotal 579704 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MMR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1488.87527836542 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Naypyidaw" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MM" ;
+    wbkg:latitude "21.914" ;
+    wbkg:lifeExpectancyYears 67.095 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "95.9562" ;
+    wbkg:name "Myanmar" ;
+    wbkg:populationTotal 54850648 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MNE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14816.8380299947 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Podgorica" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "ME" ;
+    wbkg:latitude "42.4602" ;
+    wbkg:lifeExpectancyYears 77.890243902439 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "19.2595" ;
+    wbkg:name "Montenegro" ;
+    wbkg:populationTotal 623129 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MNG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7108.22743246244 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ulaanbaatar" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MN" ;
+    wbkg:latitude "47.9129" ;
+    wbkg:lifeExpectancyYears 72.3980487804878 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "106.937" ;
+    wbkg:name "Mongolia" ;
+    wbkg:populationTotal 3568978 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MNP a wbkg:Country ;
+    wbkg:hasCapital "Saipan" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MP" ;
+    wbkg:latitude "15.1935" ;
+    wbkg:lifeExpectancyYears 78.947 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "145.765" ;
+    wbkg:name "Northern Mariana Islands" ;
+    wbkg:populationTotal 43541 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MOZ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 626.914419215727 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Maputo" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "MZ" ;
+    wbkg:latitude "-25.9664" ;
+    wbkg:lifeExpectancyYears 63.797 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "32.5713" ;
+    wbkg:name "Mozambique" ;
+    wbkg:populationTotal 35631653 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MRT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2197.51046251309 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Nouakchott" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "MR" ;
+    wbkg:latitude "18.2367" ;
+    wbkg:lifeExpectancyYears 68.713 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-15.9824" ;
+    wbkg:name "Mauritania" ;
+    wbkg:populationTotal 5315065 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MUS a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 12991.2935987166 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Port Louis" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "MU" ;
+    wbkg:latitude "-20.1605" ;
+    wbkg:lifeExpectancyYears 73.7890243902439 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "57.4977" ;
+    wbkg:name "Mauritius" ;
+    wbkg:populationTotal 1243741 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MWI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 671.506847203876 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Lilongwe" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "MW" ;
+    wbkg:latitude "-13.9899" ;
+    wbkg:lifeExpectancyYears 67.561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "33.7703" ;
+    wbkg:name "Malawi" ;
+    wbkg:populationTotal 22216120 ;
+    wbkg:populationTotalYear 2025 .
+
+country:MYS a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 13124.5554178269 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kuala Lumpur" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "MY" ;
+    wbkg:latitude "3.12433" ;
+    wbkg:lifeExpectancyYears 76.821 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "101.684" ;
+    wbkg:name "Malaysia" ;
+    wbkg:populationTotal 35977838 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NAM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4875.92558158247 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Windhoek" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "NA" ;
+    wbkg:latitude "-22.5648" ;
+    wbkg:lifeExpectancyYears 67.516 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "17.0931" ;
+    wbkg:name "Namibia" ;
+    wbkg:populationTotal 3092816 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NCL a wbkg:Country ;
+    wbkg:hasCapital "Noum'ea" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "NC" ;
+    wbkg:latitude "-22.2677" ;
+    wbkg:lifeExpectancyYears 78.921 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "166.464" ;
+    wbkg:name "New Caledonia" ;
+    wbkg:populationTotal 295333 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NER a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 775.353622143879 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Niamey" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "NE" ;
+    wbkg:latitude "13.514" ;
+    wbkg:lifeExpectancyYears 61.433 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "2.1073" ;
+    wbkg:name "Niger" ;
+    wbkg:populationTotal 27917831 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NGA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1224.25410237743 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Abuja" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "NG" ;
+    wbkg:latitude "9.05804" ;
+    wbkg:lifeExpectancyYears 54.635 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "7.48906" ;
+    wbkg:name "Nigeria" ;
+    wbkg:populationTotal 237527782 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NIC a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3173.33724815085 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Managua" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "NI" ;
+    wbkg:latitude "12.1475" ;
+    wbkg:lifeExpectancyYears 75.1 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-86.2734" ;
+    wbkg:name "Nicaragua" ;
+    wbkg:populationTotal 7007502 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NLD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 73683.917132794 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Amsterdam" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "NL" ;
+    wbkg:latitude "52.3738" ;
+    wbkg:lifeExpectancyYears 81.9658536585366 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "4.89095" ;
+    wbkg:name "Netherlands" ;
+    wbkg:populationTotal 18087633 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NOR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 94594.1929573987 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Oslo" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "NO" ;
+    wbkg:latitude "59.9138" ;
+    wbkg:lifeExpectancyYears 83.1609756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "10.7387" ;
+    wbkg:name "Norway" ;
+    wbkg:populationTotal 5610870 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NPL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1535.87781246307 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kathmandu" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SAS ;
+    wbkg:iso2Code "NP" ;
+    wbkg:latitude "27.6939" ;
+    wbkg:lifeExpectancyYears 70.636 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "85.3157" ;
+    wbkg:name "Nepal" ;
+    wbkg:populationTotal 29618118 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NRU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 14639.5046929186 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Yaren District" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "NR" ;
+    wbkg:latitude "-0.5477" ;
+    wbkg:lifeExpectancyYears 62.279 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "166.920867" ;
+    wbkg:name "Naoero" ;
+    wbkg:populationTotal 12025 ;
+    wbkg:populationTotalYear 2025 .
+
+country:NZL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 49591.0405731713 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Wellington" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "NZ" ;
+    wbkg:latitude "-41.2865" ;
+    wbkg:lifeExpectancyYears 82.009756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "174.776" ;
+    wbkg:name "New Zealand" ;
+    wbkg:populationTotal 5324700 ;
+    wbkg:populationTotalYear 2025 .
+
+country:OMN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 19947.3966227092 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Muscat" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "OM" ;
+    wbkg:latitude "23.6105" ;
+    wbkg:lifeExpectancyYears 80.246 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "58.5874" ;
+    wbkg:name "Oman" ;
+    wbkg:populationTotal 5494691 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PAK a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1595.90912252837 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Islamabad" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "PK" ;
+    wbkg:latitude "30.5167" ;
+    wbkg:lifeExpectancyYears 67.799 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "72.8" ;
+    wbkg:name "Pakistan" ;
+    wbkg:populationTotal 255219554 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PAN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 19789.7308555826 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Panama City" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "PA" ;
+    wbkg:latitude "8.99427" ;
+    wbkg:lifeExpectancyYears 79.775 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-79.5188" ;
+    wbkg:name "Panama" ;
+    wbkg:populationTotal 4571189 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PER a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 9684.41170314988 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Lima" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "PE" ;
+    wbkg:latitude "-12.0931" ;
+    wbkg:lifeExpectancyYears 77.941 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-77.0465" ;
+    wbkg:name "Peru" ;
+    wbkg:populationTotal 34576665 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PHL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4170.72347271451 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Manila" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "PH" ;
+    wbkg:latitude "14.5515" ;
+    wbkg:lifeExpectancyYears 69.946 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "121.035" ;
+    wbkg:name "Philippines" ;
+    wbkg:populationTotal 116786962 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PLW a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 19532.3557719527 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Koror" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "PW" ;
+    wbkg:latitude "7.34194" ;
+    wbkg:lifeExpectancyYears 69.383 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "134.479" ;
+    wbkg:name "Palau" ;
+    wbkg:populationTotal 17663 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PNG a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3019.5309140573 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Port Moresby" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "PG" ;
+    wbkg:latitude "-9.47357" ;
+    wbkg:lifeExpectancyYears 66.256 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "147.194" ;
+    wbkg:name "Papua New Guinea" ;
+    wbkg:populationTotal 10762817 ;
+    wbkg:populationTotalYear 2025 .
+
+country:POL a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 28419.5777395638 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Warsaw" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "PL" ;
+    wbkg:latitude "52.26" ;
+    wbkg:lifeExpectancyYears 78.409756097561 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "21.02" ;
+    wbkg:name "Poland" ;
+    wbkg:populationTotal 36435861 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PRI a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 40620.1526923687 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "San Juan" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "PR" ;
+    wbkg:latitude "18.23" ;
+    wbkg:lifeExpectancyYears 81.902 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-66" ;
+    wbkg:name "Puerto Rico (US)" ;
+    wbkg:populationTotal 3184835 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PRK a wbkg:Country ;
+    wbkg:hasCapital "Pyongyang" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "KP" ;
+    wbkg:latitude "39.0319" ;
+    wbkg:lifeExpectancyYears 73.743 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "125.754" ;
+    wbkg:name "Korea, Dem. People's Rep." ;
+    wbkg:populationTotal 26571036 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PRT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 32081.8106150292 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Lisbon" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "PT" ;
+    wbkg:latitude "38.7072" ;
+    wbkg:lifeExpectancyYears 82.3829268292683 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-9.13552" ;
+    wbkg:name "Portugal" ;
+    wbkg:populationTotal 10804871 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PRY a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7026.61906146401 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Asuncion" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "PY" ;
+    wbkg:latitude "-25.3005" ;
+    wbkg:lifeExpectancyYears 73.982 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-57.6362" ;
+    wbkg:name "Paraguay" ;
+    wbkg:populationTotal 7013078 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PSE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3171.10844621579 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "PS" ;
+    wbkg:lifeExpectancyYears 69.213 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "West Bank and Gaza" ;
+    wbkg:populationTotal 5413596 ;
+    wbkg:populationTotalYear 2025 .
+
+country:PYF a wbkg:Country ;
+    wbkg:hasCapital "Papeete" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "PF" ;
+    wbkg:latitude "-17.535" ;
+    wbkg:lifeExpectancyYears 84.192 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-149.57" ;
+    wbkg:name "French Polynesia" ;
+    wbkg:populationTotal 282465 ;
+    wbkg:populationTotalYear 2025 .
+
+country:QAT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 72524.9066385222 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Doha" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "QA" ;
+    wbkg:latitude "25.2948" ;
+    wbkg:lifeExpectancyYears 82.522 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "51.5082" ;
+    wbkg:name "Qatar" ;
+    wbkg:populationTotal 2972215 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ROU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 22537.9532108047 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bucharest" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "RO" ;
+    wbkg:latitude "44.4479" ;
+    wbkg:lifeExpectancyYears 76.4585365853659 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "26.0979" ;
+    wbkg:name "Romania" ;
+    wbkg:populationTotal 19020271 ;
+    wbkg:populationTotalYear 2025 .
+
+country:RUS a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 17546.609375 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Moscow" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "RU" ;
+    wbkg:latitude "55.7558" ;
+    wbkg:lifeExpectancyYears 73.4404878048781 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "37.6176" ;
+    wbkg:name "Russian Federation" ;
+    wbkg:populationTotal 143513328 ;
+    wbkg:populationTotalYear 2025 .
+
+country:RWA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1123.73874633225 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kigali" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "RW" ;
+    wbkg:latitude "-1.95325" ;
+    wbkg:lifeExpectancyYears 68.017 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "30.0587" ;
+    wbkg:name "Rwanda" ;
+    wbkg:populationTotal 14569341 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SAU a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 34536.6555456551 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Riyadh" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "SA" ;
+    wbkg:latitude "24.6748" ;
+    wbkg:lifeExpectancyYears 78.982 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "46.6977" ;
+    wbkg:name "Saudi Arabia" ;
+    wbkg:populationTotal 36973555 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SDN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1164.53991699219 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Khartoum" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SD" ;
+    wbkg:latitude "15.5932" ;
+    wbkg:lifeExpectancyYears 66.521 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "32.5363" ;
+    wbkg:name "Sudan" ;
+    wbkg:populationTotal 51662147 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SEN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1954.71174194867 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dakar" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SN" ;
+    wbkg:latitude "14.7247" ;
+    wbkg:lifeExpectancyYears 68.924 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-17.4734" ;
+    wbkg:name "Senegal" ;
+    wbkg:populationTotal 18931966 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SGP a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 98813.9788172877 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Singapore" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "SG" ;
+    wbkg:latitude "1.28941" ;
+    wbkg:lifeExpectancyYears 83.3463414634146 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "103.85" ;
+    wbkg:name "Singapore" ;
+    wbkg:populationTotal 6111175 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SLB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 2086.18955928928 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Honiara" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "SB" ;
+    wbkg:latitude "-9.42676" ;
+    wbkg:lifeExpectancyYears 70.694 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "159.949" ;
+    wbkg:name "Solomon Islands" ;
+    wbkg:populationTotal 838645 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SLE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 846.296172499617 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Freetown" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SL" ;
+    wbkg:latitude "8.4821" ;
+    wbkg:lifeExpectancyYears 61.964 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-13.2134" ;
+    wbkg:name "Sierra Leone" ;
+    wbkg:populationTotal 8819794 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SLV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5766.72574029107 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "San Salvador" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "SV" ;
+    wbkg:latitude "13.7034" ;
+    wbkg:lifeExpectancyYears 72.302 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-89.2073" ;
+    wbkg:name "El Salvador" ;
+    wbkg:populationTotal 6365503 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SMR a wbkg:Country ;
+    wbkg:hasCapital "San Marino" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "SM" ;
+    wbkg:latitude "43.9322" ;
+    wbkg:lifeExpectancyYears 85.817 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "12.4486" ;
+    wbkg:name "San Marino" ;
+    wbkg:populationTotal 34109 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SOM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 661.173877723116 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Mogadishu" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SO" ;
+    wbkg:latitude "2.07515" ;
+    wbkg:lifeExpectancyYears 58.967 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "45.3254" ;
+    wbkg:name "Somalia, Fed. Rep." ;
+    wbkg:populationTotal 19654739 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SRB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 15262.0464193413 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Belgrade" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "RS" ;
+    wbkg:latitude "44.8024" ;
+    wbkg:lifeExpectancyYears 75.9682926829268 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "20.4656" ;
+    wbkg:name "Serbia" ;
+    wbkg:populationTotal 6549143 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SSD a wbkg:Country ;
+    wbkg:hasCapital "Juba" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SS" ;
+    wbkg:latitude "4.85" ;
+    wbkg:lifeExpectancyYears 57.738 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "31.6" ;
+    wbkg:name "South Sudan" ;
+    wbkg:populationTotal 12188788 ;
+    wbkg:populationTotalYear 2025 .
+
+country:STP a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4084.40062145233 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Sao Tome" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ST" ;
+    wbkg:latitude "0.20618" ;
+    wbkg:lifeExpectancyYears 69.905 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "6.6071" ;
+    wbkg:name "Sao Tome and Principe" ;
+    wbkg:populationTotal 240254 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SUR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7069.87230892274 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Paramaribo" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "SR" ;
+    wbkg:latitude "5.8232" ;
+    wbkg:lifeExpectancyYears 73.757 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-55.1679" ;
+    wbkg:name "Suriname" ;
+    wbkg:populationTotal 639850 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SVK a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 28543.6653439813 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bratislava" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "SK" ;
+    wbkg:latitude "48.1484" ;
+    wbkg:lifeExpectancyYears 78.3707317073171 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "17.1073" ;
+    wbkg:name "Slovak Republic" ;
+    wbkg:populationTotal 5413813 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SVN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 37376.2216079138 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ljubljana" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "SI" ;
+    wbkg:latitude "46.0546" ;
+    wbkg:lifeExpectancyYears 82.2853658536585 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "14.5044" ;
+    wbkg:name "Slovenia" ;
+    wbkg:populationTotal 2130986 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SWE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 63133.2126736715 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Stockholm" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "SE" ;
+    wbkg:latitude "59.3327" ;
+    wbkg:lifeExpectancyYears 84.0634146341463 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "18.0645" ;
+    wbkg:name "Sweden" ;
+    wbkg:populationTotal 10596620 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SWZ a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4108.25221093363 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Mbabane" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SZ" ;
+    wbkg:latitude "-26.5225" ;
+    wbkg:lifeExpectancyYears 64.264 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "31.4659" ;
+    wbkg:name "Eswatini" ;
+    wbkg:populationTotal 1256174 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SXM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 42978.1317407037 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Philipsburg" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "SX" ;
+    wbkg:lifeExpectancyYears 76.528 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:name "Sint Maarten (Dutch part)" ;
+    wbkg:populationTotal 43923 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SYC a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 19449.3836346926 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Victoria" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "SC" ;
+    wbkg:latitude "-4.6309" ;
+    wbkg:lifeExpectancyYears 76.2951219512195 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "55.4466" ;
+    wbkg:name "Seychelles" ;
+    wbkg:populationTotal 122730 ;
+    wbkg:populationTotalYear 2025 .
+
+country:SYR a wbkg:Country ;
+    wbkg:hasCapital "Damascus" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "SY" ;
+    wbkg:latitude "33.5146" ;
+    wbkg:lifeExpectancyYears 72.56 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "36.3119" ;
+    wbkg:name "Syrian Arab Republic" ;
+    wbkg:populationTotal 25620427 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TCA a wbkg:Country ;
+    wbkg:hasCapital "Grand Turk" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "TC" ;
+    wbkg:latitude "21.4602778" ;
+    wbkg:lifeExpectancyYears 78.181 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-71.141389" ;
+    wbkg:name "Turks and Caicos Islands" ;
+    wbkg:populationTotal 46855 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TCD a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1022.33559390754 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "N'Djamena" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "TD" ;
+    wbkg:latitude "12.1048" ;
+    wbkg:lifeExpectancyYears 55.238 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "15.0445" ;
+    wbkg:name "Chad" ;
+    wbkg:populationTotal 21003705 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TGO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1383.89974929887 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Lome" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "TG" ;
+    wbkg:latitude "6.1228" ;
+    wbkg:lifeExpectancyYears 62.935 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "1.2255" ;
+    wbkg:name "Togo" ;
+    wbkg:populationTotal 8591626 ;
+    wbkg:populationTotalYear 2025 .
+
+country:THA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 8056.56359761558 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Bangkok" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "TH" ;
+    wbkg:latitude "13.7308" ;
+    wbkg:lifeExpectancyYears 76.564 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "100.521" ;
+    wbkg:name "Thailand" ;
+    wbkg:populationTotal 71619863 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TJK a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1637.2542942547 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dushanbe" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "TJ" ;
+    wbkg:latitude "38.5878" ;
+    wbkg:lifeExpectancyYears 71.927 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "68.7864" ;
+    wbkg:name "Tajikistan" ;
+    wbkg:populationTotal 10786734 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TKM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6540.17876401136 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ashgabat" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "TM" ;
+    wbkg:latitude "37.9509" ;
+    wbkg:lifeExpectancyYears 70.201 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "58.3794" ;
+    wbkg:name "Turkmenistan" ;
+    wbkg:populationTotal 7618847 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TLS a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1340.9640193437 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dili" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "TL" ;
+    wbkg:latitude "-8.56667" ;
+    wbkg:lifeExpectancyYears 67.904 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "125.567" ;
+    wbkg:name "Timor-Leste" ;
+    wbkg:populationTotal 1418517 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TON a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6547.18646814228 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Nuku'alofa" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "TO" ;
+    wbkg:latitude "-21.136" ;
+    wbkg:lifeExpectancyYears 73.07 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-175.216" ;
+    wbkg:name "Tonga" ;
+    wbkg:populationTotal 103742 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TTO a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 18967.2704636681 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Port-of-Spain" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "TT" ;
+    wbkg:latitude "10.6596" ;
+    wbkg:lifeExpectancyYears 73.617 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-61.4789" ;
+    wbkg:name "Trinidad and Tobago" ;
+    wbkg:populationTotal 1367764 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TUN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4656.63818386852 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tunis" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "TN" ;
+    wbkg:latitude "36.7899" ;
+    wbkg:lifeExpectancyYears 76.711 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "10.21" ;
+    wbkg:name "Tunisia" ;
+    wbkg:populationTotal 12348573 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TUR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 18599.4420922378 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Ankara" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "TR" ;
+    wbkg:latitude "39.7153" ;
+    wbkg:lifeExpectancyYears 77.421 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "32.3606" ;
+    wbkg:name "Turkiye" ;
+    wbkg:populationTotal 85878556 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TUV a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6041.44908591428 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Funafuti" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "TV" ;
+    wbkg:latitude "-8.6314877" ;
+    wbkg:lifeExpectancyYears 67.259 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "179.089567" ;
+    wbkg:name "Tuvalu" ;
+    wbkg:populationTotal 9492 ;
+    wbkg:populationTotalYear 2025 .
+
+country:TZA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1318.81921386719 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Dodoma" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "TZ" ;
+    wbkg:latitude "-6.17486" ;
+    wbkg:lifeExpectancyYears 67.212 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "35.7382" ;
+    wbkg:name "Tanzania" ;
+    wbkg:populationTotal 70545865 ;
+    wbkg:populationTotalYear 2025 .
+
+country:UGA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1206.30450825002 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kampala" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "UG" ;
+    wbkg:latitude "0.314269" ;
+    wbkg:lifeExpectancyYears 68.487 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "32.5729" ;
+    wbkg:name "Uganda" ;
+    wbkg:populationTotal 51384894 ;
+    wbkg:populationTotalYear 2025 .
+
+country:UKR a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5865.884765625 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kiev" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "UA" ;
+    wbkg:latitude "50.4536" ;
+    wbkg:lifeExpectancyYears 74.692 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "30.5038" ;
+    wbkg:name "Ukraine" ;
+    wbkg:populationTotal 38980376 ;
+    wbkg:populationTotalYear 2025 .
+
+country:URY a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 25215.8238152781 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Montevideo" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "UY" ;
+    wbkg:latitude "-34.8941" ;
+    wbkg:lifeExpectancyYears 78.287 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-56.0675" ;
+    wbkg:name "Uruguay" ;
+    wbkg:populationTotal 3384688 ;
+    wbkg:populationTotalYear 2025 .
+
+country:USA a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 90026.5163005744 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Washington D.C." ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:NAC ;
+    wbkg:iso2Code "US" ;
+    wbkg:latitude "38.8895" ;
+    wbkg:lifeExpectancyYears 78.890243902439 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-77.032" ;
+    wbkg:name "United States" ;
+    wbkg:populationTotal 341784857 ;
+    wbkg:populationTotalYear 2025 .
+
+country:UZB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3968.2720079072 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Tashkent" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "UZ" ;
+    wbkg:latitude "41.3052" ;
+    wbkg:lifeExpectancyYears 72.528 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "69.269" ;
+    wbkg:name "Uzbekistan" ;
+    wbkg:populationTotal 37053428 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VCT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 12561.769166789 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Kingstown" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "VC" ;
+    wbkg:latitude "13.2035" ;
+    wbkg:lifeExpectancyYears 71.382 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-61.2653" ;
+    wbkg:name "St. Vincent and the Grenadines" ;
+    wbkg:populationTotal 99924 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VEN a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3494.8138870244 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Caracas" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "VE" ;
+    wbkg:latitude "9.08165" ;
+    wbkg:lifeExpectancyYears 72.673 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-69.8371" ;
+    wbkg:name "Venezuela, RB" ;
+    wbkg:populationTotal 28516896 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VGB a wbkg:Country ;
+    wbkg:hasCapital "Road Town" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "VG" ;
+    wbkg:latitude "18.431389" ;
+    wbkg:lifeExpectancyYears 77.431 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-64.623056" ;
+    wbkg:name "British Virgin Islands" ;
+    wbkg:populationTotal 39732 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VIR a wbkg:Country ;
+    wbkg:hasCapital "Charlotte Amalie" ;
+    wbkg:hasIncomeLevel income:HIC ;
+    wbkg:hasLendingType "Not classified" ;
+    wbkg:hasRegion region:LCN ;
+    wbkg:iso2Code "VI" ;
+    wbkg:latitude "18.3358" ;
+    wbkg:lifeExpectancyYears 80.7707317073171 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-64.8963" ;
+    wbkg:name "Virgin Islands (U.S.)" ;
+    wbkg:populationTotal 103792 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VNM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5065.99091899299 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Hanoi" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "VN" ;
+    wbkg:latitude "21.0069" ;
+    wbkg:lifeExpectancyYears 74.736 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "105.825" ;
+    wbkg:name "Viet Nam" ;
+    wbkg:populationTotal 101598527 ;
+    wbkg:populationTotalYear 2025 .
+
+country:VUT a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 4038.73520713411 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Port-Vila" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "VU" ;
+    wbkg:latitude "-17.7404" ;
+    wbkg:lifeExpectancyYears 71.654 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "168.321" ;
+    wbkg:name "Vanuatu" ;
+    wbkg:populationTotal 335169 ;
+    wbkg:populationTotalYear 2025 .
+
+country:WSM a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 5872.78333308796 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Apia" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:EAS ;
+    wbkg:iso2Code "WS" ;
+    wbkg:latitude "-13.8314" ;
+    wbkg:lifeExpectancyYears 71.826 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "-171.752" ;
+    wbkg:name "Samoa" ;
+    wbkg:populationTotal 219306 ;
+    wbkg:populationTotalYear 2025 .
+
+country:XKX a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 7899.41841135202 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Pristina" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:ECS ;
+    wbkg:iso2Code "XK" ;
+    wbkg:latitude "42.565" ;
+    wbkg:lifeExpectancyYears 78.222 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "20.926" ;
+    wbkg:name "Kosovo" ;
+    wbkg:populationTotal 1576876 ;
+    wbkg:populationTotalYear 2025 .
+
+country:YEM a wbkg:Country ;
+    wbkg:hasCapital "Sana'a" ;
+    wbkg:hasIncomeLevel income:LIC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:MEA ;
+    wbkg:iso2Code "YE" ;
+    wbkg:latitude "15.352" ;
+    wbkg:lifeExpectancyYears 69.439 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "44.2075" ;
+    wbkg:name "Yemen, Rep." ;
+    wbkg:populationTotal 41773878 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ZAF a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 6597.71450918774 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Pretoria" ;
+    wbkg:hasIncomeLevel income:UMC ;
+    wbkg:hasLendingType "IBRD" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ZA" ;
+    wbkg:latitude "-25.746" ;
+    wbkg:lifeExpectancyYears 66.312 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "28.1871" ;
+    wbkg:name "South Africa" ;
+    wbkg:populationTotal 64747319 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ZMB a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 1317.87771619597 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Lusaka" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "IDA" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ZM" ;
+    wbkg:latitude "-15.3982" ;
+    wbkg:lifeExpectancyYears 66.528 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "28.2937" ;
+    wbkg:name "Zambia" ;
+    wbkg:populationTotal 21913874 ;
+    wbkg:populationTotalYear 2025 .
+
+country:ZWE a wbkg:Country ;
+    wbkg:gdpPerCapitaCurrentUsd 3021.43019873632 ;
+    wbkg:gdpPerCapitaCurrentUsdYear 2025 ;
+    wbkg:hasCapital "Harare" ;
+    wbkg:hasIncomeLevel income:LMC ;
+    wbkg:hasLendingType "Blend" ;
+    wbkg:hasRegion region:SSF ;
+    wbkg:iso2Code "ZW" ;
+    wbkg:latitude "-17.8312" ;
+    wbkg:lifeExpectancyYears 63.064 ;
+    wbkg:lifeExpectancyYearsYear 2024 ;
+    wbkg:longitude "31.0672" ;
+    wbkg:name "Zimbabwe" ;
+    wbkg:populationTotal 16950795 ;
+    wbkg:populationTotalYear 2025 .
+
+region:NAC a wbkg:Region ;
+    wbkg:label "North America" .
+
+region:SAS a wbkg:Region ;
+    wbkg:label "South Asia" .
+
+region:MEA a wbkg:Region ;
+    wbkg:label "Middle East, North Africa, Afghanistan & Pakistan" .
+
+income:LIC a wbkg:IncomeLevel ;
+    wbkg:label "Low income" .
+
+region:EAS a wbkg:Region ;
+    wbkg:label "East Asia & Pacific" .
+
+region:LCN a wbkg:Region ;
+    wbkg:label "Latin America & Caribbean" .
+
+income:LMC a wbkg:IncomeLevel ;
+    wbkg:label "Lower middle income" .
+
+region:SSF a wbkg:Region ;
+    wbkg:label "Sub-Saharan Africa" .
+
+region:ECS a wbkg:Region ;
+    wbkg:label "Europe & Central Asia" .
+
+income:UMC a wbkg:IncomeLevel ;
+    wbkg:label "Upper middle income" .
+
+income:HIC a wbkg:IncomeLevel ;
+    wbkg:label "High income" .
+

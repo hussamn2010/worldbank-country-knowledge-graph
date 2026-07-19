@@ -1,0 +1,449 @@
+{
+  "protocol": {
+    "date": "2026-07-19",
+    "mode": "closed-book answer agreement",
+    "tool_access": false,
+    "project_files_visible": false,
+    "ground_truth_visible": false,
+    "prompt_source": "ai_benchmark_questions.json",
+    "isolation": "Recorded as three fresh isolated Codex sub-agent runs; public run IDs were not retained.",
+    "audit_limit": "Raw agent transcripts and decoding parameters were not retained; results are exploratory."
+  },
+  "models": {
+    "GPT-5.6 Sol": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Nepal",
+        "Sri Lanka"
+      ],
+      "explainable_top_three": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "Bangladesh",
+        "Brazil",
+        "China",
+        "Egypt, Arab Rep.",
+        "Ethiopia",
+        "India",
+        "Indonesia",
+        "Japan",
+        "Mexico",
+        "Nigeria",
+        "Pakistan",
+        "Philippines",
+        "Russian Federation",
+        "United States"
+      ],
+      "health_outliers_above": [
+        "Monaco",
+        "Hong Kong SAR, China",
+        "Macao SAR, China",
+        "Japan",
+        "Singapore"
+      ],
+      "population_target": 251269164,
+      "gdp_target": 1478.76,
+      "life_expectancy_target": 67.65
+    },
+    "GPT-5.6 Terra": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Nepal",
+        "Sri Lanka"
+      ],
+      "explainable_top_three": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "China",
+        "India",
+        "United States",
+        "Indonesia",
+        "Pakistan",
+        "Nigeria",
+        "Brazil",
+        "Bangladesh",
+        "Russian Federation",
+        "Mexico",
+        "Ethiopia",
+        "Japan",
+        "Philippines",
+        "Egypt, Arab Rep.",
+        "Congo, Dem. Rep.",
+        "Viet Nam",
+        "Iran, Islamic Rep.",
+        "Turkiye",
+        "Germany",
+        "Thailand",
+        "United Kingdom",
+        "Tanzania",
+        "France",
+        "South Africa",
+        "Italy",
+        "Kenya",
+        "Myanmar",
+        "Colombia",
+        "Korea, Rep.",
+        "Uganda",
+        "Sudan",
+        "Spain",
+        "Algeria",
+        "Iraq",
+        "Argentina"
+      ],
+      "health_outliers_above": [
+        "Monaco",
+        "San Marino",
+        "Singapore",
+        "Japan",
+        "Korea, Rep."
+      ],
+      "population_target": 240485658,
+      "gdp_target": 1407.021,
+      "life_expectancy_target": 67.65
+    },
+    "GPT-5.6 Luna": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "explainable_top_three": [
+        "India",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "Bangladesh",
+        "India",
+        "Pakistan"
+      ],
+      "health_outliers_above": [
+        "Singapore",
+        "Japan",
+        "Switzerland",
+        "Spain",
+        "Italy"
+      ],
+      "population_target": 251269164,
+      "gdp_target": 1478.8,
+      "life_expectancy_target": 67.65
+    },
+    "GPT-5.5 (older baseline)": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Nepal",
+        "Sri Lanka"
+      ],
+      "explainable_top_three": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "Bangladesh",
+        "Brazil",
+        "China",
+        "Congo, Dem. Rep.",
+        "Egypt, Arab Rep.",
+        "Ethiopia",
+        "India",
+        "Indonesia",
+        "Japan",
+        "Mexico",
+        "Nigeria",
+        "Pakistan",
+        "Philippines",
+        "Russian Federation",
+        "United States",
+        "Vietnam"
+      ],
+      "health_outliers_above": [
+        "Sri Lanka",
+        "Bangladesh",
+        "Nepal",
+        "Vietnam",
+        "Morocco"
+      ],
+      "population_target": 255219554,
+      "gdp_target": 1461.8,
+      "life_expectancy_target": 67.2
+    },
+    "Gemini Flash (web)": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Nepal"
+      ],
+      "explainable_top_three": [
+        "India",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "Bangladesh",
+        "India",
+        "Pakistan"
+      ],
+      "health_outliers_above": [
+        "Maldives",
+        "Sri Lanka",
+        "Bhutan",
+        "Bangladesh",
+        "Nepal"
+      ],
+      "population_target": 255219554,
+      "gdp_target": 1595.9,
+      "life_expectancy_target": 68.0
+    },
+    "Claude (web)": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "explainable_top_three": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "China",
+        "India",
+        "United States",
+        "Indonesia",
+        "Pakistan",
+        "Nigeria",
+        "Brazil",
+        "Bangladesh",
+        "Russia",
+        "Mexico",
+        "Japan",
+        "Ethiopia",
+        "Philippines",
+        "Egypt",
+        "Vietnam"
+      ],
+      "health_outliers_above": [
+        "Sri Lanka",
+        "Costa Rica",
+        "Lebanon",
+        "Vietnam",
+        "Maldives"
+      ],
+      "population_target": 241500000,
+      "gdp_target": 1596,
+      "life_expectancy_target": 67
+    },
+    "DeepSeek (web)": {
+      "capital_target": "Islamabad",
+      "region_target": "South Asia",
+      "income_target": "Lower middle income",
+      "region_members": [
+        "Afghanistan",
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka"
+      ],
+      "rule_similar": [
+        "Bangladesh",
+        "India",
+        "Bhutan",
+        "Nepal",
+        "Sri Lanka"
+      ],
+      "explainable_top_three": [
+        "Bangladesh",
+        "India",
+        "Nepal"
+      ],
+      "population_over_100m": [
+        "Bangladesh",
+        "China",
+        "India",
+        "Indonesia",
+        "Japan",
+        "Mexico",
+        "Nigeria",
+        "Pakistan",
+        "Russia",
+        "United States"
+      ],
+      "health_outliers_above": [
+        "Afghanistan",
+        "Sierra Leone",
+        "Chad",
+        "Central African Republic",
+        "South Sudan"
+      ],
+      "population_target": 231402117,
+      "gdp_target": 1502.0,
+      "life_expectancy_target": 67.3
+    }
+  },
+  "benchmark": {
+    "schema_version": 2,
+    "benchmark_id": "637821768a0243714d893cacad966e5f336c1867d0f0dfaa7af17fc86cf3b79c",
+    "question_hash": "79cb2312c8842214af96d90237e5adde163406b92be09b758a38083ed329f9d2",
+    "ground_truth_hash": "bc58da425b28632a68140afc4dd84138a750fcedea25217bb1db3d53007844f9",
+    "snapshot_hash": "1c31d29dd6718646a9676be3fc6eaa92c4910858afa6f9dd3297b4500f3d47e2",
+    "generated_date": "2026-07-19",
+    "source": "World Bank Countries API and Indicators API",
+    "protocol": "closed-book answer agreement"
+  },
+  "rescore_note": "The explainable_top_three ground truth was corrected after adding evidence-coverage scoring. The question and frozen-snapshot hashes are unchanged, so the original model answers were preserved and rescored.",
+  "model_provenance": {
+    "GPT-5.6 Sol": {
+      "provider_family": "OpenAI GPT-5.6",
+      "variant_label": "Sol",
+      "audit_status": "Runtime label only; no transcript or public run identifier retained.",
+      "raw_transcript_available": false
+    },
+    "GPT-5.6 Terra": {
+      "provider_family": "OpenAI GPT-5.6",
+      "variant_label": "Terra",
+      "audit_status": "Runtime label only; no transcript or public run identifier retained.",
+      "raw_transcript_available": false
+    },
+    "GPT-5.6 Luna": {
+      "provider_family": "OpenAI GPT-5.6",
+      "variant_label": "Luna",
+      "audit_status": "Runtime label only; no transcript or public run identifier retained.",
+      "raw_transcript_available": false
+    },
+    "GPT-5.5 (older baseline)": {
+      "provider_family": "OpenAI GPT-5.5",
+      "comparison_role": "Older GPT baseline",
+      "collection_method": "Fresh closed-book isolated run",
+      "recorded_date": "2026-07-19",
+      "runtime_label": "gpt-5.5",
+      "raw_transcript_available": false,
+      "audit_limit": "Answer JSON was retained, but no public run identifier or raw transcript was retained."
+    },
+    "Gemini Flash (web)": {
+      "provider_family": "Google Gemini",
+      "comparison_role": "Cross-vendor web baseline",
+      "collection_method": "Fresh web chat with the shared closed-book benchmark prompt",
+      "recorded_date": "2026-07-19",
+      "variant_label": "Gemini Flash",
+      "raw_transcript_available": false,
+      "audit_limit": "Answer JSON was retained from user-provided web-chat output; full raw transcript was not retained."
+    },
+    "Claude (web)": {
+      "provider_family": "Anthropic Claude",
+      "comparison_role": "Cross-vendor web baseline",
+      "collection_method": "Fresh web chat with the shared closed-book benchmark prompt",
+      "recorded_date": "2026-07-19",
+      "variant_label": "Claude Sonnet 4.5",
+      "raw_transcript_available": false,
+      "audit_limit": "Answer JSON was retained from user-provided web-chat output; full raw transcript was not retained."
+    },
+    "DeepSeek (web)": {
+      "provider_family": "DeepSeek",
+      "comparison_role": "Cross-vendor web baseline",
+      "collection_method": "Fresh web chat with the shared closed-book benchmark prompt",
+      "recorded_date": "2026-07-19",
+      "variant_label": "DeepSeek web chat",
+      "raw_transcript_available": false,
+      "audit_limit": "Answer JSON was retained from user-provided web-chat output; full raw transcript was not retained."
+    }
+  }
+}

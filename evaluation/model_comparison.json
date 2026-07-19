@@ -1,0 +1,644 @@
+{
+  "benchmark": {
+    "schema_version": 2,
+    "benchmark_id": "637821768a0243714d893cacad966e5f336c1867d0f0dfaa7af17fc86cf3b79c",
+    "question_hash": "79cb2312c8842214af96d90237e5adde163406b92be09b758a38083ed329f9d2",
+    "ground_truth_hash": "bc58da425b28632a68140afc4dd84138a750fcedea25217bb1db3d53007844f9",
+    "snapshot_hash": "1c31d29dd6718646a9676be3fc6eaa92c4910858afa6f9dd3297b4500f3d47e2",
+    "generated_date": "2026-07-19",
+    "source": "World Bank Countries API and Indicators API",
+    "protocol": "closed-book answer agreement"
+  },
+  "models": {
+    "GPT-5.6 Sol": {
+      "model": "GPT-5.6 Sol",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.42550841489763885,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.9333333333333333,
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.875,
+          "detail": "Matched 14 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0155"
+        },
+        "gdp_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0734"
+        },
+        "life_expectancy_target": {
+          "score": 0.8901163733978371,
+          "correct": true,
+          "precision": 0.8901163733978371,
+          "recall": 0.8901163733978371,
+          "detail": "Relative error: 0.0022"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.0,
+        "retrieval": 0.5850740704842534
+      }
+    },
+    "GPT-5.6 Terra": {
+      "model": "GPT-5.6 Terra",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.39770092826662284,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.6274509803921569,
+          "correct": false,
+          "precision": 0.45714285714285713,
+          "recall": 1.0,
+          "detail": "Matched 16 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0577"
+        },
+        "gdp_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.1184"
+        },
+        "life_expectancy_target": {
+          "score": 0.8901163733978371,
+          "correct": true,
+          "precision": 0.8901163733978371,
+          "recall": 0.8901163733978371,
+          "detail": "Relative error: 0.0022"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.0,
+        "retrieval": 0.5468387763666064
+      }
+    },
+    "GPT-5.6 Luna": {
+      "model": "GPT-5.6 Luna",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.36936806402044586,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.3157894736842105,
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.1875,
+          "detail": "Matched 3 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0155"
+        },
+        "gdp_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0734"
+        },
+        "life_expectancy_target": {
+          "score": 0.8901163733978371,
+          "correct": true,
+          "precision": 0.8901163733978371,
+          "recall": 0.8901163733978371,
+          "detail": "Relative error: 0.0022"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.0,
+        "retrieval": 0.507881088028113
+      }
+    },
+    "GPT-5.5 (older baseline)": {
+      "model": "GPT-5.5 (older baseline)",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.4902632662474619,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.9375,
+          "correct": false,
+          "precision": 0.9375,
+          "recall": 0.9375,
+          "detail": "Matched 15 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.04000000000000001,
+          "correct": false,
+          "precision": 0.2,
+          "recall": 0.2,
+          "detail": "Set F1 0.200; positional agreement 0.200"
+        },
+        "population_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Relative error: 0.0000"
+        },
+        "gdp_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0840"
+        },
+        "life_expectancy_target": {
+          "score": 0.5582530715792241,
+          "correct": true,
+          "precision": 0.5582530715792241,
+          "recall": 0.5582530715792241,
+          "detail": "Relative error: 0.0088"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.013333333333333336,
+        "retrieval": 0.6691119910902601
+      }
+    },
+    "Gemini Flash (web)": {
+      "model": "Gemini Flash (web)",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.5476896120097225,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.3157894736842105,
+          "correct": false,
+          "precision": 1.0,
+          "recall": 0.1875,
+          "detail": "Matched 3 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Relative error: 0.0000"
+        },
+        "gdp_target": {
+          "score": 0.9998856760921885,
+          "correct": true,
+          "precision": 0.9998856760921885,
+          "recall": 0.9998856760921885,
+          "detail": "Relative error: 0.0000"
+        },
+        "life_expectancy_target": {
+          "score": 0.8517677251876921,
+          "correct": true,
+          "precision": 0.8517677251876921,
+          "recall": 0.8517677251876921,
+          "detail": "Relative error: 0.0030"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.0,
+        "retrieval": 0.7530732165133686
+      }
+    },
+    "Claude (web)": {
+      "model": "Claude (web)",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.4594808299410506,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.7741935483870969,
+          "correct": false,
+          "precision": 0.8,
+          "recall": 0.75,
+          "detail": "Matched 12 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.013333333333333336,
+          "correct": false,
+          "precision": 0.2,
+          "recall": 0.2,
+          "detail": "Set F1 0.200; positional agreement 0.067"
+        },
+        "population_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0538"
+        },
+        "gdp_target": {
+          "score": 0.9988611197173187,
+          "correct": true,
+          "precision": 0.9988611197173187,
+          "recall": 0.9988611197173187,
+          "detail": "Relative error: 0.0001"
+        },
+        "life_expectancy_target": {
+          "score": 0.4107582707709505,
+          "correct": true,
+          "precision": 0.4107582707709505,
+          "recall": 0.4107582707709505,
+          "detail": "Relative error: 0.0118"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.004444444444444445,
+        "retrieval": 0.6301194745022779
+      }
+    },
+    "DeepSeek (web)": {
+      "model": "DeepSeek (web)",
+      "collection_status": "Recorded",
+      "answered": 11,
+      "pending": 0,
+      "mean_score": 0.38013191103944594,
+      "case_scores": {
+        "capital_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Text does not match the ground truth"
+        },
+        "income_target": {
+          "score": 1.0,
+          "correct": true,
+          "precision": 1.0,
+          "recall": 1.0,
+          "detail": "Exact normalized text match"
+        },
+        "region_members": {
+          "score": 0.8571428571428571,
+          "correct": false,
+          "precision": 0.75,
+          "recall": 1.0,
+          "detail": "Matched 6 of 6 expected items"
+        },
+        "rule_similar": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Matched 0 of 6 expected items"
+        },
+        "explainable_top_three": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_over_100m": {
+          "score": 0.6923076923076923,
+          "correct": false,
+          "precision": 0.9,
+          "recall": 0.5625,
+          "detail": "Matched 9 of 16 expected items"
+        },
+        "health_outliers_above": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Set F1 0.000; positional agreement 0.000"
+        },
+        "population_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0933"
+        },
+        "gdp_target": {
+          "score": 0.0,
+          "correct": false,
+          "precision": 0.0,
+          "recall": 0.0,
+          "detail": "Relative error: 0.0588"
+        },
+        "life_expectancy_target": {
+          "score": 0.6320004719833556,
+          "correct": true,
+          "precision": 0.6320004719833556,
+          "recall": 0.6320004719833556,
+          "detail": "Relative error: 0.0074"
+        }
+      },
+      "category_scores": {
+        "project_rule": 0.0,
+        "retrieval": 0.5226813776792382
+      }
+    }
+  }
+}

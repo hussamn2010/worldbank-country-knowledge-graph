@@ -1,0 +1,82 @@
+WORLD BANK COUNTRY DEVELOPMENT KNOWLEDGE GRAPH
+========================================================
+Countries represented: 217
+Real RDF triples generated: 3197
+Source 1: https://datahelpdesk.worldbank.org/knowledgebase/articles/898590-country-api-queries
+Source 2: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation
+
+Query 1: Show facts about Pakistan
+--------------------------------------------------------
+Pakistan (PAK)
+  Region: Middle East, North Africa, Afghanistan & Pakistan
+  Income level: Lower middle income
+  Capital: Islamabad
+  Population (2025): 255,219,554
+  GDP per capita (2025): $1,595.91
+  Life expectancy (2024): 67.8 years
+
+Query 2: Countries in South Asia
+--------------------------------------------------------
+Bangladesh (BGD) | South Asia | Lower middle income | pop. 175,686,899 | GDP/capita $2,597
+Bhutan (BTN) | South Asia | Lower middle income | pop. 796,682 | GDP/capita $4,493
+India (IND) | South Asia | Lower middle income | pop. 1,463,865,525 | GDP/capita $2,702
+Maldives (MDV) | South Asia | Upper middle income | pop. 529,676 | GDP/capita $14,615
+Nepal (NPL) | South Asia | Lower middle income | pop. 29,618,118 | GDP/capita $1,536
+Sri Lanka (LKA) | South Asia | Upper middle income | pop. 21,756,000 | GDP/capita $5,002
+
+Query 3: Rule-similar countries to Pakistan
+--------------------------------------------------------
+Rule: same World Bank region and same income level as Pakistan.
+Egypt, Arab Rep. (EGY) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 118,365,995 | GDP/capita $3,086
+West Bank and Gaza (PSE) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 5,413,596 | GDP/capita $3,171
+Djibouti (DJI) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 1,184,076 | GDP/capita $3,906
+Tunisia (TUN) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 12,348,573 | GDP/capita $4,657
+Morocco (MAR) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 38,430,770 | GDP/capita $4,672
+Lebanon (LBN) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 5,849,421 | GDP/capita n/a
+
+Query 4: Countries with population above 100 million
+--------------------------------------------------------
+India (IND) | South Asia | Lower middle income | pop. 1,463,865,525 | GDP/capita $2,702
+China (CHN) | East Asia & Pacific | Upper middle income | pop. 1,406,585,000 | GDP/capita $13,862
+United States (USA) | North America | High income | pop. 341,784,857 | GDP/capita $90,027
+Indonesia (IDN) | East Asia & Pacific | Upper middle income | pop. 285,721,236 | GDP/capita $5,060
+Pakistan (PAK) | Middle East, North Africa, Afghanistan & Pakistan | Lower middle income | pop. 255,219,554 | GDP/capita $1,596
+Nigeria (NGA) | Sub-Saharan Africa | Lower middle income | pop. 237,527,782 | GDP/capita $1,224
+Brazil (BRA) | Latin America & Caribbean | Upper middle income | pop. 212,812,405 | GDP/capita $10,713
+Bangladesh (BGD) | South Asia | Lower middle income | pop. 175,686,899 | GDP/capita $2,597
+Russian Federation (RUS) | Europe & Central Asia | High income | pop. 143,513,328 | GDP/capita $17,547
+Ethiopia (ETH) | Sub-Saharan Africa | Low income | pop. 135,472,051 | GDP/capita $933
+Mexico (MEX) | Latin America & Caribbean | Upper middle income | pop. 131,946,900 | GDP/capita $13,889
+Japan (JPN) | East Asia & Pacific | High income | pop. 123,366,734 | GDP/capita $35,951
+
+Query 5: Real SPARQL query
+--------------------------------------------------------
+PREFIX wbkg: <https://example.org/worldbank-country-kg/>
+PREFIX country: <https://example.org/worldbank-country-kg/country/>
+SELECT ?capital ?region WHERE {
+  country:PAK wbkg:hasCapital ?capital ; wbkg:hasRegion ?region .
+}
+Result: [{'capital': 'Islamabad', 'region': 'https://example.org/worldbank-country-kg/region/MEA'}]
+
+Query 6: Explainable multi-factor similarity to Pakistan
+--------------------------------------------------------
+Score weights: region .30, income .25, GDP .20, life expectancy .15, population .10
+Egypt, Arab Rep.: 0.841 | coverage 100% | region=0.300, income=0.250, gdp_per_capita=0.103, life_expectancy=0.142, population=0.046 | Same World Bank region, Same World Bank income level, Similar life expectancy
+West Bank and Gaza: 0.800 | coverage 100% | region=0.300, income=0.250, gdp_per_capita=0.101, life_expectancy=0.147, population=0.002 | Same World Bank region, Same World Bank income level, Similar life expectancy
+Djibouti: 0.779 | coverage 100% | region=0.300, income=0.250, gdp_per_capita=0.082, life_expectancy=0.146, population=0.000 | Same World Bank region, Same World Bank income level, Similar life expectancy
+Morocco: 0.768 | coverage 100% | region=0.300, income=0.250, gdp_per_capita=0.068, life_expectancy=0.135, population=0.015 | Same World Bank region, Same World Bank income level, Similar life expectancy
+Tunisia: 0.756 | coverage 100% | region=0.300, income=0.250, gdp_per_capita=0.069, life_expectancy=0.133, population=0.005 | Same World Bank region, Same World Bank income level, Similar life expectancy
+
+Query 7: Health-outlier inference
+--------------------------------------------------------
+Rule: life expectancy differs by at least 3.0 years from the country's income-group average.
+Naoero is 17.7 years below the High income average of 80.0 years.
+Nigeria is 13.6 years below the Lower middle income average of 68.2 years.
+Palau is 10.6 years below the High income average of 80.0 years.
+Lesotho is 10.4 years below the Lower middle income average of 68.2 years.
+Equatorial Guinea is 10.1 years below the Upper middle income average of 74.0 years.
+
+Original symbolic inference rule
+--------------------------------------------------------
+similar_country(X, Y) is true when X and Y share the same World Bank region
+and the same World Bank income level, and X is not Y.

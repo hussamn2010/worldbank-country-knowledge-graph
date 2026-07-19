@@ -1,0 +1,25 @@
+{
+  "benchmark": {
+    "schema_version": 2,
+    "benchmark_id": "637821768a0243714d893cacad966e5f336c1867d0f0dfaa7af17fc86cf3b79c",
+    "question_hash": "79cb2312c8842214af96d90237e5adde163406b92be09b758a38083ed329f9d2",
+    "ground_truth_hash": "bc58da425b28632a68140afc4dd84138a750fcedea25217bb1db3d53007844f9",
+    "snapshot_hash": "1c31d29dd6718646a9676be3fc6eaa92c4910858afa6f9dd3297b4500f3d47e2",
+    "generated_date": "2026-07-19",
+    "source": "World Bank Countries API and Indicators API",
+    "protocol": "closed-book answer agreement"
+  },
+  "country_count": 217,
+  "rdf_triples": 3197,
+  "facts_checked": 1699,
+  "rdf_transformation_fidelity": 1.0,
+  "sparql_equivalence": 1.0,
+  "sparql_values_checked": 1482,
+  "consistency_violations": [],
+  "indicator_coverage": {
+    "population": 1.0,
+    "gdp_per_capita": 0.8571428571428571,
+    "life_expectancy": 1.0
+  },
+  "query_latency_ms": 409.284999999727
+}

@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Evaluation Benchmark" type="PythonConfigurationType" factoryName="Python">
+    <module name="worldbank_country_kg" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs><env name="PYTHONUNBUFFERED" value="1" /></envs>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluate_project.py" />
+    <option name="PARAMETERS" value="--output-dir evaluation" />
+    <method v="2" />
+  </configuration>
+</component>

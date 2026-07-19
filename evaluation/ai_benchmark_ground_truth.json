@@ -1,0 +1,143 @@
+{
+  "benchmark": {
+    "schema_version": 2,
+    "benchmark_id": "637821768a0243714d893cacad966e5f336c1867d0f0dfaa7af17fc86cf3b79c",
+    "question_hash": "79cb2312c8842214af96d90237e5adde163406b92be09b758a38083ed329f9d2",
+    "ground_truth_hash": "bc58da425b28632a68140afc4dd84138a750fcedea25217bb1db3d53007844f9",
+    "snapshot_hash": "1c31d29dd6718646a9676be3fc6eaa92c4910858afa6f9dd3297b4500f3d47e2",
+    "generated_date": "2026-07-19",
+    "source": "World Bank Countries API and Indicators API",
+    "protocol": "closed-book answer agreement"
+  },
+  "cases": [
+    {
+      "id": "capital_target",
+      "question": "What is the capital city of Pakistan? Return one short text value.",
+      "answer_type": "text",
+      "expected": "Islamabad",
+      "tolerance": 0.0,
+      "category": "retrieval"
+    },
+    {
+      "id": "region_target",
+      "question": "Which World Bank region contains Pakistan? Return the official World Bank label.",
+      "answer_type": "text",
+      "expected": "Middle East, North Africa, Afghanistan & Pakistan",
+      "tolerance": 0.0,
+      "category": "retrieval"
+    },
+    {
+      "id": "income_target",
+      "question": "What is the World Bank income level of Pakistan? Return the official label.",
+      "answer_type": "text",
+      "expected": "Lower middle income",
+      "tolerance": 0.0,
+      "category": "retrieval"
+    },
+    {
+      "id": "region_members",
+      "question": "List every country in the World Bank region 'South Asia'. Return a JSON list of country names with no explanation.",
+      "answer_type": "set",
+      "expected": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Sri Lanka"
+      ],
+      "tolerance": 0.0,
+      "category": "retrieval"
+    },
+    {
+      "id": "rule_similar",
+      "question": "Using the rule 'same World Bank region and same income level', list every country similar to Pakistan. Return a JSON list of country names with no explanation.",
+      "answer_type": "set",
+      "expected": [
+        "Egypt, Arab Rep.",
+        "West Bank and Gaza",
+        "Djibouti",
+        "Tunisia",
+        "Morocco",
+        "Lebanon"
+      ],
+      "tolerance": 0.0,
+      "category": "project_rule"
+    },
+    {
+      "id": "explainable_top_three",
+      "question": "Using weights region=0.30, income=0.25, GDP-per-capita=0.20, life-expectancy=0.15, population=0.10, list the top three countries most similar to Pakistan. Return a JSON list of country names with no explanation.",
+      "answer_type": "ranked",
+      "expected": [
+        "Egypt, Arab Rep.",
+        "West Bank and Gaza",
+        "Djibouti"
+      ],
+      "tolerance": 0.0,
+      "category": "project_rule"
+    },
+    {
+      "id": "population_over_100m",
+      "question": "List every represented country with population at least 100000000. Return a JSON list of country names with no explanation.",
+      "answer_type": "set",
+      "expected": [
+        "India",
+        "China",
+        "United States",
+        "Indonesia",
+        "Pakistan",
+        "Nigeria",
+        "Brazil",
+        "Bangladesh",
+        "Russian Federation",
+        "Ethiopia",
+        "Mexico",
+        "Japan",
+        "Egypt, Arab Rep.",
+        "Philippines",
+        "Congo, Dem. Rep.",
+        "Viet Nam"
+      ],
+      "tolerance": 0.0,
+      "category": "retrieval"
+    },
+    {
+      "id": "health_outliers_above",
+      "question": "For each income group, compute average life expectancy and select countries at least 3.0 years above their group average. Return the first five country names ranked by absolute difference.",
+      "answer_type": "ranked",
+      "expected": [
+        "Lebanon",
+        "Korea, Dem. People's Rep.",
+        "Tunisia",
+        "Syrian Arab Republic",
+        "Morocco"
+      ],
+      "tolerance": 0.0,
+      "category": "project_rule"
+    },
+    {
+      "id": "population_target",
+      "question": "What is the latest population value for Pakistan? Return only a number.",
+      "answer_type": "number",
+      "expected": 255219554.0,
+      "tolerance": 0.01,
+      "category": "retrieval"
+    },
+    {
+      "id": "gdp_target",
+      "question": "What is the latest GDP per capita in current US dollars for Pakistan? Return only a number.",
+      "answer_type": "number",
+      "expected": 1595.90912252837,
+      "tolerance": 0.05,
+      "category": "retrieval"
+    },
+    {
+      "id": "life_expectancy_target",
+      "question": "What is the latest life expectancy value for Pakistan? Return only a number.",
+      "answer_type": "number",
+      "expected": 67.799,
+      "tolerance": 0.02,
+      "category": "retrieval"
+    }
+  ]
+}
